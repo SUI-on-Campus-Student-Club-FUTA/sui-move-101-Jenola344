@@ -1,6 +1,9 @@
-/*
 #[test_only]
-module workshop_pproject::workshop_pproject_tests;
+module workshop_pproject::todo_list_tests{
+    use workshop_pproject::todo_list{TodoList, self};
+}
+
+
 // uncomment this line to import the module
 // use workshop_pproject::workshop_pproject;
 
